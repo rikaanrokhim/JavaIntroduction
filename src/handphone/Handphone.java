@@ -38,6 +38,8 @@ public class Handphone {
     public Integer getHarga() {
         return harga;
     }
+    
+    // code for output penghitungan
     public void harga(int duwit) {
         System.out.println("Handphone bermerk " + merk + "harganya Rp." + harga);
     }

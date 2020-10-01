@@ -9,6 +9,8 @@ package handphone;
  *
  * @author lenovo
  */
+
+// deklarasi isi dari class handphone
 public class HandphoneMain {
     public static void main(String[] args) {
         Handphone xiaomi = new Handphone();

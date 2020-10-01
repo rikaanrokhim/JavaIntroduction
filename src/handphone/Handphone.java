@@ -17,6 +17,8 @@ public class Handphone {
     public int lebarLayar;
     private int harga; 
     
+    
+    // cod for setting pixel kamera
     public void setPixelKamera(int val) {
         pixelKamera = val;
     }
@@ -35,6 +37,8 @@ public class Handphone {
     public void setHarga(int val) {
         harga = val;
     }
+    
+    // code for getter harga
     public Integer getHarga() {
         return harga;
     }

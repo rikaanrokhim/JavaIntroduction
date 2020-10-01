@@ -17,9 +17,13 @@ public class Handphone {
     public int lebarLayar;
     private int harga; 
     
+    
+    // fungsi setter
     public void setPixelKamera(int val) {
         pixelKamera = val;
     }
+    
+    // fungsi getter
     public Integer getPixelKamera() {
         return pixelKamera;
     }
@@ -38,6 +42,7 @@ public class Handphone {
     public Integer getHarga() {
         return harga;
     }
+   
     public void harga(int duwit) {
         System.out.println("Handphone bermerk " + merk + "harganya Rp." + harga);
     }
